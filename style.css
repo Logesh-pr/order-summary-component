@@ -111,8 +111,8 @@ main{
     color: var(--Bright-blue);
     font-weight: 700;
 }
-.plan_options a:active{
-    color: var(--Light-blue);
+.plan_options a:hover{
+    opacity: 0.7;
     transition: .2s;
 }
 .button_container{
@@ -135,8 +135,8 @@ main{
     transition: .2s;
 
 }
-.btn_1:active{
-    background-color: var(--Light-blue);
+.btn_1:hover{
+    opacity: 0.7;
     box-shadow: 0 0.925em 1.5em -1em  var(--Light-blue);
 }
 .btn_2{
@@ -150,7 +150,7 @@ main{
     transition: .2s;
     
 }
-.btn_2:active{
+.btn_2:hover{
     color: var(--Dark-blue);
 }
 .attribution{
